@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Hahmlet', serif;
+    src: local('Hahmlet'),
+        url('C:\Users\hyori\Desktop\멋쟁이사자처럼\자기소개 페이지 만들깅\Hahmlet-VariableFont_wght.ttf')
+}
+
+
+.logo {
+    text-align: center;
+    display: block;
+    font-weight: 1000;
+    font-size: 100px;
+    background-color: rgb(235, 221, 235);
+}
+
+
+
+.birth {
+    text-align: center;
+    display: block;
+    font-weight: 300;
+    font-family: 'Jua', sans-serif;
+    font-size: 80px;
+    line-height: normal;
+    font-style: italic;
+    color: rgb(78, 116, 193);
+    
+}
+a:hover {
+    color : rgb(170, 6, 159);
+    text-decoration: underline;
+  }
+
+.c{
+    border: 10pt groove #b53f6e;
+    border-radius: 10%;
+}
+  
+.birth_img {
+    width: 850px;
+    height: 950px;
+    margin: 7vh 7vh;
+    margin-bottom: 30px;
+}
+
+.birth_text {
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    color: rgb(61, 27, 61);
+    font-size: 80px;
+    font-family: 'Hahmlet', serif;
+}
+
+.home_text {
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    font-family: 'Hahmlet', serif;
+    font-size: 90px;
+    line-height: normal;
+    font-style: normal;
+    color: rgb(8, 4, 34);
+}
+
+
+
+.footer{
+    text-align: center;
+    display: block;
+    font-weight: 1000;
+    font-size: 100px;
+    background-color: rgb(225, 170, 225);
+
+}
+
+background: linear-gradient(137deg, #fff6b7, #f77c99, #6578f2, #c2ffd8);
+background-size: 800% 800%;
+ 
+-webkit-animation: AnimationName 16s ease infinite;
+-moz-animation: AnimationName 16s ease infinite;
+-o-animation: AnimationName 16s ease infinite;
+animation: AnimationName 16s ease infinite;
+ 
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+ 
+.container {
+  color: #eb6262;
+  background: linear-gradient(-45deg, #ffc4b1, #ffaecd, #a7d8ea, #fdc6e0);
+  background-size: 300% 300%;
+  animation: AnimationName 15s ease infinite;
+  width: 100%;
+  height: 500vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
